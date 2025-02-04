@@ -46,7 +46,7 @@ def generate_questions(context, num_questions=5):
         return []
 
 def main():
-    st.title("🤖 Automatic Question Generator")
+    st.title("🤖 Automatic Question Answer Generator")
     st.write("Generate questions from text or PDF files using AI!")
 
     # Input method selection
@@ -90,7 +90,7 @@ def main():
 
 if __name__ == "__main__":
     st.set_page_config(
-        page_title="Question Generator",
+        page_title="Question Answer Generator",
         page_icon="🤖",
         layout="wide"
     )
